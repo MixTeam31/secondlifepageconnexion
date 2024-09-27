@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.content {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.discord {
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.discord a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.loading-bar {
+    margin-top: 40px;
+    width: 60%;
+    height: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading-bar .progress {
+    width: 0%;
+    height: 100%;
+    background-color: #00bfff;
+    animation: load 5s linear forwards;
+}
+
+@keyframes load {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
